@@ -14,7 +14,6 @@
   - [Netbeans](#netbeans-1)
   - [IntelliJ](#intellij)
   - [Visual Studio Code](#visual-studio-code)
-- [Proyecto](#proyecto)
 - [Recursos Adicionales](#recursos-adicionales)
 
 ### ¿Cómo empezar?
@@ -59,10 +58,19 @@ Para crear una vista en un nuevo proyecto usando el GUI Designer de IntelliJ IDE
   ![Crear un GUI form en IntelliJ IDEA](./imgs/intellij/java-swing-intellij-1.jpg)
 
 2. Ingresar los datos de la vista (nombre y tipo de layout)
-   ![Crear un GUI form en IntelliJ IDEA](./imgs/intellij/java-swing-intellij-2.jpg)
+   ![Ingresar los datos de la vista](./imgs/intellij/java-swing-intellij-2.jpg)
 
-3. Automáticamente se generan un archivo `.form` y uno `.java` asociados a la nueva vista
-   ![Crear un GUI form en IntelliJ IDEA](./imgs/intellij/java-swing-intellij-3.jpg)
+3. Automáticamente se generan un archivo `.form` y uno `.java` asociados a la nueva vista. Podemos arrastrar y soltar componentes de la paleta al panel.
+   ![Archivos del GUI Form](./imgs/intellij/java-swing-intellij-3.jpg)
+   ![Vista diseñada usando GUI Designer](./imgs/intellij/java-swing-intellij-4.jpg)
+
+4. IntelliJ genera una clase asociada a la interfaz que incluye solamente los componentes de la vista. Es necesario agregar el resto del código de manera manual para vincular dicha vista a la aplicación:
+   ![Código asociado a la interfaz generado por IntelliJ](./imgs/intellij/java-swing-intellij-5.jpg)
+
+Es necesario agregar el resto del código de manera manual para vincular dicha vista a la aplicación:
+![Complementa el código generado por IntelliJ IDEA](./imgs/intellij/java-swing-intellij-6.jpg)
+
+![Vincula la interfaz gráfica con la clase principal de la aplicación](./imgs/intellij/java-swing-intellij-7.jpg)
 
 #### Visual Studio Code
 
