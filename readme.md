@@ -33,7 +33,7 @@
   - [Java Swing](#java-swing)
     - [Repositorio](#repositorio)
   - [JavaFX](#javafx)
-
+- [Herramientas Visuales](#herramientas-visuales)
 ### Proyecto: Punto de Venta
 
 #### Diagrama de flujo (Vistas)
@@ -47,3 +47,7 @@
 [Repositorio del proyecto hecho en Java Swing](https://github.com/joshuaFrias95/sistema-de-ventas-G5)
 
 #### JavaFX
+
+#### Herramientas Visuales
+- [Color Hunt](https://www.colorhunt.co/)
+- [ICONS](https://iconos8.es/)
