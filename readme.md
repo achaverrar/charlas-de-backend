@@ -50,3 +50,4 @@
 
 #### Herramientas Visuales
 - [Color Hunt](https://www.colorhunt.co/)
+- [ICONS](https://iconos8.es/)
